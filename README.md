@@ -1,7 +1,7 @@
 <br/>
 <div align="center">
 <a href="https://github.com/ShaanCoding/ReadME-Generator">
-<img src="https://drive.google.com/file/d/1DPOlGsjQ8Bam6HxMlTXs8v45iMPmJX7H/view" alt="Logo" width="80" height="80">
+<img src="https://imgur.com/a/GtXoM3o" alt="Logo" width="80" height="80">
 </a>
 <h3 align="center">InosKL24</h3>
 <p align="center">
