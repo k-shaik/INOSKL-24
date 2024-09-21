@@ -75,39 +75,32 @@ InosKL24 offers a variety of functions, accessible via the command line. Here's 
 
 # Check username or email information
 ```
-```bash
 python inoskl24.py --username <Username/Email>
 ```
 # Retrieve domain information
 ```
-```bash
 python inoskl24.py --domain <Domain>
 ```
 # Run an IP scan using Nmap
 ```
-```bash
 python inoskl24.py --ip <IP_Address>
 ```
 # Analyze malware from a file
 ```
-```bash
 python inoskl24.py --malware <File_Path>
 ```
 # Analyze malware from a URL
 ```
-```bash
-python inoskl24.py --malware <URL_Link
+python inoskl24.py --malware <URL_Link>
 ```
 # Search for leaked emails on GitHub
 ```
 # Search for leaked emails on GitHub
 ```
-```bash
 python inoskl24.py --github <Search_Query>
 ```
 # Retrive Victim's Phone Number Information
-
-```bash
+```
 python inoskl24.py --phone <PhoneNumber>
 ```
 
