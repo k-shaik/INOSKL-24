@@ -203,6 +203,32 @@ def print_cli_report(data):
         else:
             print(f"\n{key}: {value}")
 
+def check_github_leak(email):
+        headers = {
+            'Accept': 'application/vnd.github.v3+json',
+            'Authorization': 'token YOUR_GITHUB_TOKEN'  # Replace with your token
+        }
+        query = f'"{email}"'
+        url = f'https://api.github.com/search/code?q={query}&sort=indexed'
+
+        try:
+            response = requests.get(url, headers=headers)
+            if response.status_code == 200:
+                data = response.json()
+                if data['total_count'] > 0:
+                    report = f"<html><body><h2>Email Leaks Found on GitHub for {email}</h2><ul>"
+                    for item in data['items']:
+                        report += f"<li>Repository: <a href='{item['html_url']}'>{item['repository']['full_name']}</a></li>"
+                    report += "</ul></body></html>"
+                    with open(f'github_leaked_{email}.html', 'w', encoding='utf-8') as f:
+                        f.write(report)
+                    print(f"Leak report generated for {email}. Check github_leaked_{email}.html")
+                else:
+                    print(f"No leaks found for {email} on GitHub.")
+            else:
+                print(f"GitHub API request failed with status code {response.status_code}.")
+        except requests.RequestException as e:
+            print(f"Error during GitHub email leak search: {str(e)}")
 
 def main():
     try:
