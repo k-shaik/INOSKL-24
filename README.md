@@ -1,7 +1,7 @@
 <br/>
 <div align="center">
 <a href="https://github.com/k-shaik/INOSKL-24">
-<img src="INOSKL-24\INOSKL24\src\inoskl24.jpg" alt="Logo" width="80" height="80">
+<img src="https://raw.githubusercontent.com/k-shaik/INOSKL-24/refs/heads/main/INOSKL24/src/inoskl24.jpg" alt="Logo" width="80" height="80">
 </a>
 <h3 align="center">InosKL24</h3>
 <p align="center">
