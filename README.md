@@ -1,15 +1,13 @@
 <br/>
 <div align="center">
-<a href="https://github.com/ShaanCoding/ReadME-Generator">
-<img src="https://imgur.com/a/GtXoM3o" alt="Logo" width="80" height="80">
+<a href="https://github.com/k-shaik/INOSKL-24">
+<img src="INOSKL-24\INOSKL24\src\inoskl24.jpg" alt="Logo" width="80" height="80">
 </a>
 <h3 align="center">InosKL24</h3>
 <p align="center">
 Your All-in-One OSINT Toolkit for Security & Privacy Management!
 </p>
 </div>
-
-
 
 ## 🚀 About The Project
 
