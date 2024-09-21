@@ -95,8 +95,6 @@ python inoskl24.py --malware <URL_Link>
 ```
 # Search for leaked emails on GitHub
 ```
-# Search for leaked emails on GitHub
-```
 python inoskl24.py --github <Search_Query>
 ```
 # Retrive Victim's Phone Number Information
