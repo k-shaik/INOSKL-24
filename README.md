@@ -21,7 +21,6 @@ Your All-in-One OSINT Toolkit for Security & Privacy Management!
 - **Phone Number Lookup:** Investigate suspicious phone numbers.
 - **Leaked GitHub Emails Search:** Analyze and search for leaked GitHub emails.
 - **Malware Analysis:** Check suspicious files or URLs for potential malware.
-- **Social Media Analysis:** Investigate social media accounts for privacy and security.
 
 This toolkit is continuously evolving with new features planned for future releases, ensuring users stay informed and secure in the ever-changing digital world.
 
@@ -76,24 +75,42 @@ Before you begin, ensure you have the following installed on your system:
 
 InosKL24 offers a variety of functions, accessible via the command line. Here's how you can make use of the tool:
 
-```bash
 # Check username or email information
+```
+```bash
 python inoskl24.py --username <Username/Email>
-
+```
 # Retrieve domain information
+```
+```bash
 python inoskl24.py --domain <Domain>
-
+```
 # Run an IP scan using Nmap
+```
+```bash
 python inoskl24.py --ip <IP_Address>
-
+```
 # Analyze malware from a file
+```
+```bash
 python inoskl24.py --malware <File_Path>
-
+```
 # Analyze malware from a URL
-python inoskl24.py --malware <URL_Link>
-
+```
+```bash
+python inoskl24.py --malware <URL_Link
+```
 # Search for leaked emails on GitHub
+```
+# Search for leaked emails on GitHub
+```
+```bash
 python inoskl24.py --github <Search_Query>
+```
+# Retrive Victim's Phone Number Information
+
+```bash
+python inoskl24.py --phone <PhoneNumber>
 ```
 
 Just follow the on-screen instructions, input the required data, and review the outputs for detailed insights.
