@@ -18,6 +18,7 @@ Your All-in-One OSINT Toolkit for Security & Privacy Management!
 - **Domain & IP Information:** Retrieve crucial details for domains and IPs.
 - **Phone Number Lookup:** Investigate suspicious phone numbers.
 - **Leaked GitHub Emails Search:** Analyze and search for leaked GitHub emails.
+- **Social Media Lookup** Gather publicly available information about individuals across various social media platforms.
 - **Malware Analysis:** Check suspicious files or URLs for potential malware.
 
 This toolkit is continuously evolving with new features planned for future releases, ensuring users stay informed and secure in the ever-changing digital world.
